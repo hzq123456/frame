@@ -2,8 +2,17 @@
   "name":"ants/frame",
   "description":"PHP Framework",
   "type":"Framework",
+  "license": "MIT",
+  "version": "1.0.0",
   "keywords":[
     "PHP","PHP Framework"
+  ],
+
+  "authors": [
+    {
+      "name": "ant",
+      "email": "1608085113@qq.com"
+    }
   ],
   "require":{
     "php":">=5.3",
@@ -12,12 +21,15 @@
     "catfan/Medoo":"*",
     "twig/twig":"*"
   },
+  "autoload": {
+    "psr-0": {
+      "Jenner\\Zebra\\MessageQueue": "src/"
+    }
+  },
   "repositories": {
         "packagist": {
             "type": "composer",
             "url": "https://packagist.phpcomposer.com"
         }
   }
-
-
 }
