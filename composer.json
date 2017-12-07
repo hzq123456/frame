@@ -22,8 +22,8 @@
     "twig/twig":"*"
   },
   "autoload": {
-    "psr-0": {
-      "Jenner\\Zebra\\MessageQueue": "src/"
+    "psr-4": {
+      "App\\": "app/"
     }
   },
   "repositories": {
