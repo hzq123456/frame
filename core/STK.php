@@ -2,8 +2,6 @@
 /**
  * @author Hanzq
  * @datetime 2017-11-24 16:06
- * @link http://www.cnzxsoft.com/
- * @copyright Copyright &copy; 2017 Rights Reserved 中新网安
  */
 
 namespace core;
